@@ -7,8 +7,7 @@ include '010.php';
 
 $init = new Bom();
 
-//Eksekusi Sms Boomber
-echo "Nomor Target (tanpa 0/62)\nInput : ";
+echo "Silahkan isi (tanpa 0/62)\nMasukan Nomer Target ==> ";
 $a = trim(fgets(STDIN));
 $init->no = "$a";
 echo "Jumlah Pesan\nInput : ";
